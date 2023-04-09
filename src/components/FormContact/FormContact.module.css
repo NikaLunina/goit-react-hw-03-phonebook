@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  width: 200px;
+  padding: 5px;
+  border-radius: 20px;
+  outline: none;
+
+  border: 2px solid #363636;
+  background-color: #c9c9c9;
+}
+.label {
+  color: #363636;
+  font-weight: bold;
+}
+
+.button {
+  width: 100px;
+  margin: 0 auto;
+  background-color: rosybrown;
+  border: 2px solid #363636;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.button:hover,
+.button:focus {
+  cursor: pointer;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
